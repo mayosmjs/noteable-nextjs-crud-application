@@ -2,8 +2,8 @@
 
 ## Screenshots
 
-![screenshots](screenshot1.png)
-![screenshots](screenshot2.png)
+![screenshots](screenshots/screenshot1.png)
+![screenshots](screenshots/screenshot2.png)
 
 ## How to Run the Application
 
