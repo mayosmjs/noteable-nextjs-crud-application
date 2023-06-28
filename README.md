@@ -12,22 +12,22 @@
 1. Clone the repository and navigate to the application folder:
 
 2. Install the dependencies using npm:
-   ```npm install```
+   `npm install`
 3. Create an environment file (.env)  and add the following environment variables:
 
-```GOOGLE_CLIENT_ID="client_id"
-GOOGLE_CLIENT_SECRET="client_secret"
+`GOOGLE_CLIENT_ID="client_id"
+ GOOGLE_CLIENT_SECRET="client_secret"
 GITHUB_SECRET="GitHub_secret"
 MONGODB_URI="mongo_url"
 NEXTAUTH_URL="http://localhost:3000"
 NEXTAUTH_URL_INTERNAL="http://localhost:3000"
 NEXTAUTH_SECRET="your_secret_key"
-```
+`
 
 Note: Obtain the OAuth2 credentials from the respective providers.
 
 4. Start the development server:
-   ```npmrun dev```
+   `npmrun dev`
 
 This command will run the application in development mode.
 
