@@ -1,34 +1,108 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CRUD Application using Next.js
 
-## Getting Started
+## Screenshots
 
-First, run the development server:
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## How to Run the Application
+
+### Steps
+
+1. Clone the repository and navigate to the application folder:
+
+2. Install the dependencies using npm:
+   ```npm install```
+3. Create an environment file (.env)  and add the following environment variables:
+
+```
+GOOGLE_CLIENT_ID="client_id"
+GOOGLE_CLIENT_SECRET="client_secret"
+GITHUB_SECRET="GitHub_secret"
+MONGODB_URI="mongo_url"
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_URL_INTERNAL="http://localhost:3000"
+NEXTAUTH_SECRET="your_secret_key"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Note: Obtain the OAuth2 credentials from the respective providers.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. Start the development server:
+   ```npmrun dev```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This command will run the application in development mode.
 
-## Learn More
+5. Access the application in your web browser at [http://localhost:3000](http://localhost:3000).
 
-To learn more about Next.js, take a look at the following resources:
+Note: Make sure to replace `client_id`, `client_secret`, `GitHub_secret`, `mongo_url`, and `your_secret_key` with the actual values for your environment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Enjoy using the Crude Application built with Next.js!
+Please note that in the above markdown, <repository_url> and <application_folder> are placeholders and should be replaced with the actual values based on your specific repository URL and application folder.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+User
+Show everything in one markdown 
+
+ChatGPT
+Certainly! Here's the compiled result with everything in one markdown format:
+
+markdown
+Copy code
+# Crude Application using Next.js
+
+## Screenshots
+
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
+
+## How to Run the Application
+
+### Steps
+
+1. Clone the repository and navigate to the application folder:
+git clone <repository_url>
+cd <application_folder>
+
+arduino
+Copy code
+
+2. Install the dependencies using npm:
+npm install
+
+sql
+Copy code
+
+3. Create an environment file (.env) and add the following code:
+GOOGLE_CLIENT_ID="client_id"
+GOOGLE_CLIENT_SECRET="client_secret"
+GITHUB_SECRET="GitHub_secret"
+MONGODB_URI="mongo_url"
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_URL_INTERNAL="http://localhost:3000"
+NEXTAUTH_SECRET="your_secret_key"
+
+sql
+Copy code
+
+Note: Obtain the OAuth2 credentials from the respective providers.
+
+4. Start the development server:
+npm run dev
+
+less
+Copy code
+
+This command will run the application in development mode.
+
+5. Access the application in your web browser at [http://localhost:3000](http://localhost:3000).
+
+Note: Make sure to replace `client_id`, `client_secret`, `GitHub_secret`, `mongo_url`, and `your_secret_key` with the actual values for your environment.
+
+Enjoy using the Crud Application built with Next.js!
+Please remember to replace <repository_url> and <application_folder> with the actual values based on your specific repository URL and application folder.
+
+
+
