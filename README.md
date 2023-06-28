@@ -2,8 +2,8 @@
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
+![screenshot 1](screenshot1.png)
+![screenshot 2](screenshot2.png)
 
 ## How to Run the Application
 
@@ -15,8 +15,7 @@
    ```npm install```
 3. Create an environment file (.env)  and add the following environment variables:
 
-```
-GOOGLE_CLIENT_ID="client_id"
+```GOOGLE_CLIENT_ID="client_id"
 GOOGLE_CLIENT_SECRET="client_secret"
 GITHUB_SECRET="GitHub_secret"
 MONGODB_URI="mongo_url"
