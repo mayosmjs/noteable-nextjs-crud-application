@@ -70,10 +70,6 @@ const Nav = () => {
                    <Image src={`/assets/socials/${provider.id}.svg` }className="w-6 h-5 mr-2 -ml-1" width={20} height={20}/>
                   {provider.id}
                 </button>
-
-
-
-
               ))}
           </>
         )}
@@ -131,8 +127,10 @@ const Nav = () => {
                   onClick={() => {
                     signIn(provider.id);
                   }}
-                  className='black_btn mr-2'
-                >
+                  className='text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 
+                  focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 
+                  text-center inline-flex items-center dark:text-white orange_gradient hover:bg-[#FF9119]/80 mr-2 mb-2' >
+                   <Image src={`/assets/socials/${provider.id}.svg` }className="w-6 h-5 mr-2 -ml-1" width={20} height={20}/>
                   {provider.id}
                 </button>
               ))}
